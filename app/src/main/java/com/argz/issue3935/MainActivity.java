@@ -13,9 +13,8 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 
-
 public class MainActivity extends AppCompatActivity {
-    public static final String TAG = "POTATO";
+    private static final String TAG = "MainActivity";
     FirebaseAppCheck firebaseAppCheck;
 
     @Override
